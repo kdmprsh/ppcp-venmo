@@ -1,0 +1,9 @@
+services:
+  venmo:
+    build: .
+    ports:
+      - "8080:80"
+    env_file: .env
+    # Uncomment to live-reload code from your machine:
+    # volumes:
+    #   - .:/var/www/html
