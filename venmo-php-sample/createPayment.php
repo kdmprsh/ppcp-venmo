@@ -22,11 +22,11 @@ $postData = '{
       "invoice_id": "<UNIQUE INVOICE ID>",
       "amount": {
         "currency_code": "USD",
-        "value": "4.00",
+        "value": "1.00",
         "breakdown": {
           "item_total": {
             "currency_code": "USD",
-            "value": "4.00"
+            "value": "1.00"
           }
         }
       },
@@ -35,9 +35,9 @@ $postData = '{
           "name": "payment for <MENTION SERVICE DETAILS>",
           "unit_amount": {
             "currency_code": "USD",
-            "value": "2.00"
+            "value": "1.00"
           },
-          "quantity": "2",
+          "quantity": "1",
           "description": "payment for <MENTION SERVICE DETAILS>",
           "category": "DIGITAL_GOODS"
         }
