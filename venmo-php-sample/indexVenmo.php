@@ -18,7 +18,7 @@ include('config.php');
 <body>
   <div class="summary">
     <h3>Pay with Venmo</h3>
-    <p>Total to be paid: <b>USD 4.00</b></p>
+    <p>Total to be paid: <b>USD 1.00</b></p>
     <label><input type="checkbox" id="terms"> I have read and agree to the terms and conditions.</label>
   </div>
 
